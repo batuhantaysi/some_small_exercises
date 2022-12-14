@@ -9,9 +9,13 @@ Script is written in Bash and runs via /bin/bash. The execution privilege is nee
 ## Usage
 
 > ./prng.sh [OPTIONAL] -i param -u param
+
 > -l : lower bound
+
 > -u : upper bound
+
 > Bounds are optional, script is going to generate values between 1 and 10 as default
+
 > If a bound value is given as a parameter, the other bound must be given too.
 
 
