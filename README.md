@@ -1,1 +1,0 @@
-# some_small_exercises
