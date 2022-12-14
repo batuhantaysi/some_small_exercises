@@ -1,12 +1,12 @@
-###PRNG Script between values 1 and 10 written as a Bash script
+### PRNG Script between values 1 and 10 written as a Bash script
 
-##Build Instructions
+## Build Instructions
 
 Script is written in Bash and runs via /bin/bash. The execution privilege is needed to be given to the file.
 
 > chmod +x ./prng.sh
 
-##Usage
+## Usage
 
 > ./prng.sh [OPTIONAL] -i param -u param
 > -l : lower bound
@@ -15,7 +15,7 @@ Script is written in Bash and runs via /bin/bash. The execution privilege is nee
 > If a bound value is given as a parameter, the other bound must be given too.
 
 
-##Description
+## Description
 
 Spoiler: GNU shuf works much better than this script. It it recommended to use shuf.
  
@@ -33,7 +33,7 @@ Test cases:
 
 > ./prng.sh -l 0 -u 32767 #If you have spare time
 
-##Known limitations / Bugs
+## Known limitations / Bugs
 
 - As the range grows, the probability of an unfound value is generated gets lower. It can cause some problems like CPU overload. Also, theoretically, there is a possibility that the value is never going to be generated and the script will not end.
 
